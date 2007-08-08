@@ -7,7 +7,7 @@ original look and feel.
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.2.11-1
+  cygport-0.3.5-1
 
 Canonical website:
   http://dejavu.sourceforge.net/
@@ -18,30 +18,30 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-dejavu-ttf-2.18-X-src.tar.bz2
+  unpack font-dejavu-ttf-2.19-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-dejavu-ttf-2.18-X.cygport all
+  cygport ./font-dejavu-ttf-2.19-X.cygport all
 
 This will create:
-  /usr/src/font-dejavu-ttf-2.18-X-src.tar.bz2
-  /usr/src/font-dejavu-ttf-2.18-X.tar.bz2
+  /usr/src/font-dejavu-ttf-2.19-X-src.tar.bz2
+  /usr/src/font-dejavu-ttf-2.19-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /etc/postinstall/font-dejavu-ttf.sh
-  /usr/share/doc/Cygwin/font-dejavu-ttf-2.18.README
-  /usr/share/doc/font-dejavu-ttf-2.18/AUTHORS
-  /usr/share/doc/font-dejavu-ttf-2.18/BUGS
-  /usr/share/doc/font-dejavu-ttf-2.18/LICENSE
-  /usr/share/doc/font-dejavu-ttf-2.18/NEWS
-  /usr/share/doc/font-dejavu-ttf-2.18/README
-  /usr/share/doc/font-dejavu-ttf-2.18/langcover.txt
-  /usr/share/doc/font-dejavu-ttf-2.18/status.txt
-  /usr/share/doc/font-dejavu-ttf-2.18/unicover.txt
+  /usr/share/doc/Cygwin/font-dejavu-ttf-2.19.README
+  /usr/share/doc/font-dejavu-ttf-2.19/AUTHORS
+  /usr/share/doc/font-dejavu-ttf-2.19/BUGS
+  /usr/share/doc/font-dejavu-ttf-2.19/LICENSE
+  /usr/share/doc/font-dejavu-ttf-2.19/NEWS
+  /usr/share/doc/font-dejavu-ttf-2.19/README
+  /usr/share/doc/font-dejavu-ttf-2.19/langcover.txt
+  /usr/share/doc/font-dejavu-ttf-2.19/status.txt
+  /usr/share/doc/font-dejavu-ttf-2.19/unicover.txt
   /usr/share/fonts/TTF/DejaVuSans-Bold.ttf
   /usr/share/fonts/TTF/DejaVuSans-BoldOblique.ttf
   /usr/share/fonts/TTF/DejaVuSans-ExtraLight.ttf
@@ -71,6 +71,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.19-1 -----
+Version bump.
 
 ----- version 2.18-1 -----
 Version bump.
