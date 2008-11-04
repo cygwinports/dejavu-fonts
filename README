@@ -14,15 +14,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-dejavu-ttf-2.26-X-src.tar.bz2
+  unpack font-dejavu-ttf-2.27-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-dejavu-ttf-2.26-X.cygport all
+  cygport ./font-dejavu-ttf-2.27-X.cygport all
 
 This will create:
-  /usr/src/font-dejavu-ttf-2.26-X-src.tar.bz2
-  /usr/src/font-dejavu-ttf-2.26-X.tar.bz2
+  /usr/src/font-dejavu-ttf-2.27-X-src.tar.bz2
+  /usr/src/font-dejavu-ttf-2.27-X.tar.bz2
 
 -------------------------------------------
 
@@ -33,14 +33,14 @@ Files included in the binary package:
   /etc/fonts/conf.d/57-dejavu.conf
   /etc/fonts/conf.d/61-dejavu-experimental.conf
   /etc/postinstall/font-dejavu-ttf.sh
-  /usr/share/doc/font-dejavu-ttf-2.26/AUTHORS
-  /usr/share/doc/font-dejavu-ttf-2.26/BUGS
-  /usr/share/doc/font-dejavu-ttf-2.26/LICENSE
-  /usr/share/doc/font-dejavu-ttf-2.26/NEWS
-  /usr/share/doc/font-dejavu-ttf-2.26/README
-  /usr/share/doc/font-dejavu-ttf-2.26/langcover.txt
-  /usr/share/doc/font-dejavu-ttf-2.26/status.txt
-  /usr/share/doc/font-dejavu-ttf-2.26/unicover.txt
+  /usr/share/doc/font-dejavu-ttf-2.27/AUTHORS
+  /usr/share/doc/font-dejavu-ttf-2.27/BUGS
+  /usr/share/doc/font-dejavu-ttf-2.27/LICENSE
+  /usr/share/doc/font-dejavu-ttf-2.27/NEWS
+  /usr/share/doc/font-dejavu-ttf-2.27/README
+  /usr/share/doc/font-dejavu-ttf-2.27/langcover.txt
+  /usr/share/doc/font-dejavu-ttf-2.27/status.txt
+  /usr/share/doc/font-dejavu-ttf-2.27/unicover.txt
   /usr/share/fonts/TTF/DejaVuSans-Bold.ttf
   /usr/share/fonts/TTF/DejaVuSans-BoldOblique.ttf
   /usr/share/fonts/TTF/DejaVuSans-ExtraLight.ttf
@@ -66,6 +66,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.27-1 -----
+Version bump.
 
 ----- version 2.26-1 -----
 Version bump.
