@@ -14,82 +14,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack font-dejavu-ttf-2.27-X-src.tar.bz2
+  unpack font-dejavu-ttf-2.30-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./font-dejavu-ttf-2.27-X.cygport all
+  cygport ./font-dejavu-ttf-2.30-X.cygport all
 
 This will create:
-  /usr/src/font-dejavu-ttf-2.27-X-src.tar.bz2
-  /usr/src/font-dejavu-ttf-2.27-X.tar.bz2
+  /usr/src/font-dejavu-ttf-2.30-X-src.tar.bz2
+  /usr/src/font-dejavu-ttf-2.30-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/fonts/conf.d/20-unhint-small-dejavu-experimental.conf
-  /etc/fonts/conf.d/20-unhint-small-dejavu.conf
-  /etc/fonts/conf.d/57-dejavu.conf
-  /etc/fonts/conf.d/61-dejavu-experimental.conf
-  /etc/postinstall/font-dejavu-ttf.sh
-  /usr/share/doc/font-dejavu-ttf-2.27/AUTHORS
-  /usr/share/doc/font-dejavu-ttf-2.27/BUGS
-  /usr/share/doc/font-dejavu-ttf-2.27/LICENSE
-  /usr/share/doc/font-dejavu-ttf-2.27/NEWS
-  /usr/share/doc/font-dejavu-ttf-2.27/README
-  /usr/share/doc/font-dejavu-ttf-2.27/langcover.txt
-  /usr/share/doc/font-dejavu-ttf-2.27/status.txt
-  /usr/share/doc/font-dejavu-ttf-2.27/unicover.txt
-  /usr/share/fonts/TTF/DejaVuSans-Bold.ttf
-  /usr/share/fonts/TTF/DejaVuSans-BoldOblique.ttf
-  /usr/share/fonts/TTF/DejaVuSans-ExtraLight.ttf
-  /usr/share/fonts/TTF/DejaVuSans-Oblique.ttf
-  /usr/share/fonts/TTF/DejaVuSans.ttf
-  /usr/share/fonts/TTF/DejaVuSansCondensed-Bold.ttf
-  /usr/share/fonts/TTF/DejaVuSansCondensed-BoldOblique.ttf
-  /usr/share/fonts/TTF/DejaVuSansCondensed-Oblique.ttf
-  /usr/share/fonts/TTF/DejaVuSansCondensed.ttf
-  /usr/share/fonts/TTF/DejaVuSansMono-Bold.ttf
-  /usr/share/fonts/TTF/DejaVuSansMono-BoldOblique.ttf
-  /usr/share/fonts/TTF/DejaVuSansMono-Oblique.ttf
-  /usr/share/fonts/TTF/DejaVuSansMono.ttf
-  /usr/share/fonts/TTF/DejaVuSerif-Bold.ttf
-  /usr/share/fonts/TTF/DejaVuSerif-BoldItalic.ttf
-  /usr/share/fonts/TTF/DejaVuSerif-Italic.ttf
-  /usr/share/fonts/TTF/DejaVuSerif.ttf
-  /usr/share/fonts/TTF/DejaVuSerifCondensed-Bold.ttf
-  /usr/share/fonts/TTF/DejaVuSerifCondensed-BoldItalic.ttf
-  /usr/share/fonts/TTF/DejaVuSerifCondensed-Italic.ttf
-  /usr/share/fonts/TTF/DejaVuSerifCondensed.ttf
-
-------------------
-
 Port Notes:
 
------ version 2.27-1 -----
-Version bump.
-
------ version 2.26-1 -----
-Version bump.
-
------ version 2.24-1 -----
-Version bump.
-
------ version 2.21-1 -----
-Version bump.
-
------ version 2.20-1 -----
-Version bump.
-
------ version 2.19-1 -----
-Version bump.
-
------ version 2.18-1 -----
-Version bump.
-
------ version 2.17-1 -----
-Initial release for Cygwin.
+----- version 2.30-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
