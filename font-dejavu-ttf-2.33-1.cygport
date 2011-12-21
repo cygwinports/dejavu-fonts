@@ -1,21 +1,26 @@
-ORIG_PN="dejavu-fonts-ttf"
+ORIG_PN="dejavu-fonts"
 inherit font
 
 DESCRIPTION="DejaVu font family"
 HOMEPAGE="http://dejavu.sourceforge.net/"
 SRC_URI="mirror://sourceforge/dejavu/${ORIG_PN}-${PV}.tar.bz2"
 
-src_compile() { :; }
+DEPEND="fontforge
+	perl(Font::TTF::Font)"
 
-src_test() { :; }
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake full-ttf
+}
 
 src_install() {
-	cd ${S}
+	cd ${B}
 	insinto /etc/fonts/conf.d
-	doins fontconfig/*.conf
+	doins fontconfig/*-dejavu-s*.conf
 
 	fontinto TTF
-	dofont ttf/*.ttf
+	dofont build/*.ttf
 
 	dodoc *.txt
 }
