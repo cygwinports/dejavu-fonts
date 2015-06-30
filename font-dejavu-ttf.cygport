@@ -1,0 +1,33 @@
+inherit font
+
+NAME="font-dejavu-ttf"
+VERSION=2.33
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="DejaVu font family"
+DESCRIPTION="The DejaVu fonts are a font family based on the Bitstream Vera
+Fonts (http://gnome.org/fonts/). Its purpose is to provide a wider range of
+characters while maintaining the original look and feel."
+HOMEPAGE="http://dejavu.sourceforge.net/"
+SRC_URI="mirror://sourceforge/dejavu/dejavu-fonts-${VERSION}.tar.bz2"
+SRC_DIR="dejavu-fonts-${VERSION}"
+
+DEPEND="fontforge
+	perl(Font::TTF::Font)"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake full-ttf
+}
+
+src_install() {
+	cd ${B}
+	insinto /etc/fonts/conf.d
+	doins fontconfig/*-dejavu-s*.conf
+
+	fontinto TTF
+	dofont build/*.ttf
+
+	dodoc *.txt
+}

@@ -1,7 +1,0 @@
-category: X11
-requires: fontconfig mkfontdir mkfontscale font-encodings
-sdesc: "DejaVu font family"
-ldesc: "The DejaVu fonts are a font family based on the Bitstream Vera 
-Fonts (http://gnome.org/fonts/). Its purpose is to provide a wider range 
-of characters (see status.txt for more information) while maintaining 
-the original look and feel."
