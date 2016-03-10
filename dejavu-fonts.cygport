@@ -2,7 +2,7 @@ inherit font
 
 NAME="dejavu-fonts"
 VERSION=2.35
-RELEASE=1
+RELEASE=2
 CATEGORY="X11"
 SUMMARY="DejaVu font family"
 DESCRIPTION="The DejaVu fonts are a font family based on the Bitstream Vera
@@ -16,12 +16,17 @@ OBSOLETES="font-dejavu-ttf"
 ARCH=noarch
 
 DEPEND="fontforge
-	perl(Font::TTF::Font)"
+	perl(Font::TTF::Font)
+	unicode-ucd
+"
 
 src_compile() {
 	lndirs
 	cd ${B}
-	cygmake full-ttf
+	cygmake full \
+		FC-LANG="" \
+		BLOCKS=/usr/share/unicode/ucd/Blocks.txt \
+		UNICODEDATA=/usr/share/unicode/ucd/UnicodeData.txt
 }
 
 src_install() {
@@ -31,5 +36,5 @@ src_install() {
 	fontinto dejavu
 	dofont build/*.ttf
 
-	dodoc *.txt
+	dodoc build/*.txt
 }
