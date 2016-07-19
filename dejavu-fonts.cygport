@@ -1,14 +1,14 @@
 inherit font
 
 NAME="dejavu-fonts"
-VERSION=2.35
-RELEASE=2
+VERSION=2.36
+RELEASE=1
 CATEGORY="X11"
 SUMMARY="DejaVu font family"
 DESCRIPTION="The DejaVu fonts are a font family based on the Bitstream Vera
 Fonts (http://gnome.org/fonts/). Its purpose is to provide a wider range of
 characters while maintaining the original look and feel."
-HOMEPAGE="http://dejavu.sourceforge.net/"
+HOMEPAGE="http://dejavu-fonts.org/"
 SRC_URI="mirror://sourceforge/dejavu/dejavu-fonts-${VERSION}.tar.bz2"
 
 OBSOLETES="font-dejavu-ttf"
