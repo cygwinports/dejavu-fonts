@@ -8,7 +8,7 @@ SUMMARY="DejaVu font family"
 DESCRIPTION="The DejaVu fonts are a font family based on the Bitstream Vera
 Fonts (http://gnome.org/fonts/). Its purpose is to provide a wider range of
 characters while maintaining the original look and feel."
-HOMEPAGE="http://dejavu-fonts.org/"
+HOMEPAGE="https://dejavu-fonts.github.io/"
 SRC_URI="mirror://sourceforge/dejavu/dejavu-fonts-${VERSION}.tar.bz2"
 
 OBSOLETES="font-dejavu-ttf"
